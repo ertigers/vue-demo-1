@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import moment from 'moment';
 // 完整导入
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css';
@@ -6,6 +7,7 @@ import App from './App.vue'
 // 局部引入
 // import { Button, message } from 'ant-design-vue';
 
+Vue.prototype.$moment = moment
 
 Vue.config.productionTip = false
 Vue.use(Antd);

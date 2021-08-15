@@ -10,20 +10,9 @@ yarn install
 yarn serve
 ```
 
-### Compiles and minifies for production
+### 相关demo测试代码目录：
 ```
-yarn build
+components：
+    Input———————————常用表单标签
+    MomentJs————————moment.js的相关使用
 ```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
