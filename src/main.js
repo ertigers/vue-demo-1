@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import moment from 'moment';
 // 完整导入
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
@@ -9,6 +10,8 @@ import App from './App.vue'
 // import { Button, message } from 'ant-design-vue';
 
 Vue.use(ElementUI);
+Vue.prototype.$moment = moment
+
 Vue.config.productionTip = false
 Vue.use(Antd);
 
