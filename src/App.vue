@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <!-- <div>常用属性的使用：</div> -->
-    <Input />
+    <Index />
   </div>
 </template>
 
 <script>
-import Input from  "./components/Input"
+import Index from './project/index2.vue'
 
 export default {
   name: 'App',
   components: {
-    Input 
+    Index 
   }
 }
 </script>

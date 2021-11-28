@@ -1,12 +1,14 @@
 import Vue from 'vue'
 // 完整导入
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css';
 import App from './App.vue'
 // 局部引入
 // import { Button, message } from 'ant-design-vue';
 
-
+Vue.use(ElementUI);
 Vue.config.productionTip = false
 Vue.use(Antd);
 
